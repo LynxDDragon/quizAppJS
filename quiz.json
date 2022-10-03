@@ -1,0 +1,74 @@
+{
+    "quiz": [
+        {
+            "question": "Where does cheese come from?",
+            "options": {
+                "option1": "It just randomly spawns sometimes",
+                "option2": "There is no cheese. It's all French Propaganda",
+                "option3": "I sometimes buy milk, and it turns out to be cheese"
+            },
+            "correctAnswer": "option1"
+
+        },
+
+        {
+            "question": "How do cats always land on their feet?",
+            "options": {
+                "option1": "They're actually machines built by the government",
+                "option2": "Their feet have a negative charge, so that they turn towards the earth's positive charge while they fall",
+                "option3": "Cats just be built different"
+            },
+            "correctAnswer": "option3"
+
+
+        },
+
+
+        {
+            "question": "May 24?",
+            "options": {
+                "option1": "Plant Flowers",
+                "option2": "Spray Fungicide on Peach Tree",
+                "option3": "Clean Solar Pannels"
+            },
+
+            "correctAnswer": "option2"
+
+
+        }
+
+    ],
+
+    "shortAnswer": [
+
+        {
+            "prompt":  "What came first? The Chicken or the Egg?",
+            "answer": "The Chicken"
+        },
+        {
+            "prompt": "Why Did the Chicken Cross the Road???",
+            "answer": "To get there before the egg"
+        },
+        {
+            "prompt": "Why don't we ever see baby pigeons???",
+            "answer": "They Spawn as adults. They're ovepowered"
+        },
+        {
+            "prompt": "Where was the declaration of Independence Signed???",
+            "answer": "At the bottom"
+        },
+        {
+            "prompt": "What do you call a smart Dinosaur???",
+            "answer": "The-Saurus"
+        },
+        {
+            "prompt": "What do you call a Bear without Ears???",
+            "answer": "B"
+        },
+        {
+            "prompt": "Why do pregnant horses run faster then other horses???",
+            "answer": "Because they have 2 horsepower"
+        }
+    ]
+
+}

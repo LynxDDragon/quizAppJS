@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <nav class= "topnav">
+        <a href="#">Pooring</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">I wouldn't Go Outside if I where You</a>
+    </nav>
+
+    <template id="choice">
+        <form action="">
+            <h4></h4>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html"></label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css"></label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript"></label>
+        </form>
+    </template>
+
+    <template id="textQuiz">
+        <form id="singlecard">
+            <h4></h4>
+            <input type="text" id="short">
+            <label for="short"></label>
+        </form>
+    </template>
+
+    <div id="formDiv">
+        <form action="submit">
+            <div id="quizCard"></div>
+
+            <div id="textAnswer"></div>
+
+            <input id="gradeQuiz" type="button" value="Submit" onclick="gradeQuiz()">
+        </form>
+    </div>
+
+    <h1 class="main-heading"></h1>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
